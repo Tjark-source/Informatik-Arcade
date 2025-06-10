@@ -26,8 +26,8 @@ class SnakeGame(arcade.Window):
         self.game_over = False
         self.score = 0
 
-        # Bewegungssteuerung: die Zeit, die vor dem nächsten Schritt vergehen soll (in Sekunden)
-        self.move_interval = 0.3  # Erhöhe diesen Wert, um die Schlange langsamer zu machen
+        # Bewegungssteuerung
+        self.move_interval = 0.3  
         self.time_since_last_move = 0.0
 
     def place_food(self):
